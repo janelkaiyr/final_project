@@ -1,0 +1,27 @@
+@mixin caption_italic($color) {
+    font-family: $font_yellowtail;
+    font-size: calc(12px + 8 * (100vw - 320px) / 880);
+    color: $color;
+}
+
+@mixin caption_roboto($color, $font-size) {
+    font-family: $font_roboto;
+    font-weight: 700;
+    font-size: $font-size;
+    color: $color;
+}
+
+@mixin button($bg_color, $color) {
+    background-color: $bg_color;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    padding: 10px 20px;
+    color: $color;
+    text-align: center;
+
+    img {
+        width: 12px;
+        margin-left: 2px;
+    }
+}
