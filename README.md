@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Интернет-магазин
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Проект интернет-магазин  на React, CSS,SCSS.
 
 ## Available Scripts
 
